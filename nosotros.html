@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies Website</title>
+
+    <!-- Fav Icon -->
+
+    <link rel="icon" href="img/favi-icon.png" type="img/x-icon" />
+    
+    <!-- Font awesome -->
+
+    <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer"
+    />
+
+    <!-- Box Icons -->
+
+    <link 
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" 
+    rel="stylesheet"
+    />
+
+    <!-- Boostrap -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <!-- Link Swiper CSS -->
+
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <!-- Normalize -->
+
+    <link rel="stylesheet" href="..//css/normalize.css"/>
+  </head>
+  <body>
+
+    <!-- Header -->
+
+    <header>
+        <!-- Nav -->
+        <div class="nav container">
+          <!-- Logo -->
+          <a href="index.html" class="logo">
+            <img src="img/logo-2.png" alt="logo">
+          </a>
+          <!-- Search Box -->
+          <div class="search_box">
+            <input type="search" name="" id="search_input" placeholder="Buscar un película"><i class='bx bx-search'></i>
+            <div class="bar_search">
+              <a href="#" class="card">
+                <img src="img/the boys.jpg" alt="">
+                <div class="cont_search">
+                  <h3>The Boys</h3>
+                  <p>Sci-Fi / Action, 2021 , <span>IMDB</span><i class="bi bi-star-fill"></i> 9.3 </p>
+                </div>
+              </a>
+              <a href="#" class="card">
+                <img src="img/money_heist.jpg" alt="">
+                <div class="cont_search">
+                  <h3>La Casa de Papel</h3>
+                  <p>Action / Thriller, 2021 , <span>IMDB</span><i class="bi bi-star-fill"></i> 9.9 </p>
+                </div>
+              </a>
+              <a href="#" class="card">
+                <img src="img/Jhon Wick.jpg" alt="">
+                <div class="cont_search">
+                  <h3>John wick</h3>
+                  <p>Action, 2021 , <span>IMDB</span><i class="bi bi-star-fill"></i> 9.8 </p>
+                </div>
+              </a>
+              <a href="#" class="card">
+                <img src="img/ant man.jpg" alt="">
+                <div class="cont_search">
+                  <h3>El Hombre Hormiga</h3>
+                  <p>Sci-Fi, 2021 , <span>IMDB</span><i class="bi bi-star-fill"></i> 8.9 </p>
+                </div>
+              </a>   
+              <a href="#" class="card">
+                <img src="img/avengers.jpg" alt="">
+                <div class="cont_search">
+                  <h3>Los Vengadores</h3>
+                  <p>Sci-fi / Action, 2021 , <span>IMDB</span><i class="bi bi-star-fill"></i> 9.9 </p>
+                </div>
+              </a>   
+              <a href="#" class="card">
+                <img src="img/moon knight.jpg" alt="">
+                <div class="cont_search">
+                  <h3>Moonknight</h3>
+                  <p>Sci-Fi / Action, 2021 , <span>IMDB</span><i class="bi bi-star-fill"></i> 8.3 </p>
+                </div>
+              </a>   
+              <a href="#" class="card">
+                <img src="img/kota factory.jpg" alt="">
+                <div class="cont_search">
+                  <h3>La Fábrica de Kota</h3>
+                  <p>Comedy, 2021 , <span>IMDB</span><i class="bi bi-star-fill"></i> 8.1 </p>
+                </div>
+              </a>   
+              <a href="#" class="card">
+                <img src="img/collage romance.jpg" alt="">
+                <div class="cont_search">
+                  <h3>Collage Romance</h3>
+                  <p>Comedy, 2021 , <span>IMDB</span><i class="bi bi-star-fill"></i> 7.8 </p>
+                </div>
+              </a>  
+              <a href="#" class="card">
+                <img src="img/thor love of thunder.jpg" alt="">
+                <div class="cont_search">
+                  <h3>Thor: Amor y Trueno</h3>
+                  <p>Sci-Fi / Action, 2022 , <span>IMDB</span><i class="bi bi-star-fill"></i> 7.2 </p>
+                </div>
+              </a>   
+              <a href="#" class="card">
+                <img src="img/topgun.jpg" alt="">
+                <div class="cont_search">
+                  <h3>Top Gun: Maverick</h3>
+                  <p>Action / Adventure, 2022 , <span>IMDB</span><i class="bi bi-star-fill"></i> 9 </p>
+                </div>
+              </a>   
+              <a href="#" class="card">
+                <img src="img/spiderman.jpg" alt="">
+                <div class="cont_search">
+                  <h3>Spiderman: No Way Home</h3>
+                  <p>Action / Adventure, 2022 , <span>IMDB</span><i class="bi bi-star-fill"></i> 9.5 </p>
+                </div>
+              </a>       
+            </div>
+          </div>
+          <!-- User -->
+          <a href="#" class="user">
+            <img src="img/user.png" alt="" class="user-img">
+          </a>
+          <!-- NavBar -->
+          <div class="navbar">
+            <a href="index.html" class="nav-link nav-active">
+              <i class="bx bx-home"></i>
+              <span class="nav-link-title">Home</span>
+            </a>
+            <a href="nosotros.html" class="nav-link">
+              <i class='bx bx-user'></i>
+              <span class="nav-link-title">Nosotros</span>
+            </a>
+            <a href="index.html" class="nav-link">
+              <i class="bx bxs-hot"></i>
+              <span class="nav-link-title">Trending</span>
+            </a>
+            <a href="películas.html" class="nav-link">
+              <i class='bx bx-camera-movie'></i>
+              <span class="nav-link-title">Películas</span>
+            </a>
+            <a href="series.html" class="nav-link">
+              <i class='bx bx-tv'></i>
+              <span class="nav-link-title">Series</span>
+            </a>
+            <a href="jumanji.html" class="nav-link">
+              <i class="bx bx-heart"></i>
+              <span class="nav-link-title">Favoritos</span>
+            </a>
+            <a href="contacto.html" class="nav-link">
+              <i class='bx bx-info-circle'></i>
+              <span class="nav-link-title">Información</span>
+            </a>
+          </div>
+        </div>        
+    </header>
+
+    <!-- Parallax 1 -->
+
+    <section class="parallax" id="home">
+      <img src="img/stars.png" alt="" id="stars">
+      <img src="img/moon.png" alt="" id="moon">
+      <img src="img/mountains_behind.png" alt="" id="mountains_behind">
+      <h2 class="parallax-txt" id="parallax_txt">Sobre Nosotros</h2>
+      <a href="#begin" class="parallax-btn" id="parallax_btn">Introducción</a>
+      <img src="img/mountains_front.png" alt="" id="mountains_front">
+    </section>
+
+    <section class="presentation container" id="begin">
+      <p>Saludos amigos cinéfolos, les presentamos el sitio web de PeliNigth, donde podrán disfrutar y descargar de sus mejores películas y series a gran calidad. Con esta breve introducción PeliNight esta encantado de poder servirte en lo que necesites, así que trae las palomítas y disfruten del show. 
+      </p>  
+    </section>
+    
+    <section class="contact container" id="contact">
+      <div class="heading">
+        <h2 class="heading-title">Bienvenidos</h2>
+      </div>
+      <div class="content-section">
+        <div class="row">
+          <!-- Forms -->
+          <div class="col">
+            <div class="presentation container" id="begin">
+              <p>
+                Saludos amigos cinéfolos, les presentamos el sitio web de PeliNight, donde podrán disfrutar y descargar de sus mejores películas y series a gran calidad. Con esta breve introducción PeliNight esta encantado de poder servirte en lo que necesites, así que trae las palomítas y disfruten del show. 
+              </p>
+            </div>
+            
+            <div class="heading">
+              <h2 class="heading-title">PeliNight</h2>
+            </div>
+            <div class="presentation container">
+              <p>
+                PeliNight es un pequeño negocio para aquellos fans de ver películas y series. Buscamos siempre la mejor calidad y sacar lo más pronto posibible, aquellos estrenos actuales.  
+                <span><br>
+                  Futuro Foro
+                </span><br>
+                Así mismo tenemos pensado convertirnos en una gran comunidad, y transformar nuestro sitio, a una aplicación en donde las personas puedan relacionarse, hablar de sus filmes favoritos e interactuar de manera más dinámica entre sí.
+                <span><br>
+                  Ver Juntos
+                </span><br>
+                Finalmente tenemos como proyecto conseguir una forma segura y sencilla para ver tus filmes junto a tus amigos al mismo tiempo. Pudiendo compartir desde distancia y estar más conectados entre sí.
+              </p>
+            </div>
+            <div class="heading">
+              <h2 class="heading-title">Creadores</h2>
+            </div>
+            <section class="personal container" id="barberos">
+              
+              <div class="personal-group">
+                <div class="personal-1">
+                  <img src="img/ale.jpg" alt="">
+                  <h3>Alejandro Ovidio</h3>                  
+                  <div class="contact-container">
+                    <button class="btns-h">
+                      <a href="https://wa.me/59168487989">Enviar mensaje&nbsp<i class='bx bxl-whatsapp'></i></a> 
+                    </button>
+                    </div>
+                </div>
+        
+                <div class="personal-1">
+                  <img src="img/samu.JPG" alt="">
+                  <h3>Samuel Pérez</h3>
+                  <div class="contact-container">
+                    <button class="btns-h">
+                      <a href="https://wa.me/59169456831">Enviar mensaje&nbsp<i class='bx bxl-whatsapp'></i></a>                      
+                    </button>
+                    </div>
+                </div>
+        
+              </div>
+            </section>
+          </div>
+          <!-- Maps -->
+          <div class="col">
+            <div class="heading">
+              <h2 class="heading-title">Dirección Física</h2>
+            </div>
+            <div class="maps">
+              <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3807.8756964984173!2d-66.16468088512399!3d-17.36971338808913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDIyJzExLjAiUyA2NsKwMDknNDUuMCJX!5e0!3m2!1ses!2sbo!4v1686617358314!5m2!1ses!2sbo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="heading">
+              <h2 class="heading-title">Información</h2>
+            </div>
+            <div class="info">
+              <ul>
+                <li>
+                  <i class="fa-solid fa-location-dot"></i>
+                  C. Huallparrimachi, Edificio Rafael N°1785 Z/Cala-Cala - CBBA 
+                </li>
+                <li>
+                  <i class="fa-solid fa-mobile-screen"></i>
+                  Llamanos: 
+                  <a href="https://wa.me/59168487989" class="direct">+591 68487989</a>&nbsp; &nbsp; &nbsp;
+                  <a href="https://wa.me/59168487989" class="direct">+591 69456831</a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-envelope"></i>
+                  Email: 
+                  <a href="mailto:ovidioalejandro1507@gmail.com" class="direct">ovidioalejandro1507@gmail.com</a> &nbsp; &nbsp; &nbsp;
+                  <a href="mailto:cbbe.samuel.perez.ve@unifranz.edu.bo" class="direct">cbbe.samuel.perez.ve@unifranz.edu.bo</a> 
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+   
+
+      <!-- Return -->
+
+      <div class="next-page ">
+        <div class="btns-h">
+          <a href="#home" class="next-btn">
+            <i class="fa-solid fa-angles-up"></i>
+          </a>
+        </div>        
+      </div><br>
+
+    <!-- Copyright -->
+
+    <footer>
+      <div class="copyright">
+        <p>Copyright - Unifranz &copy; 2023</p>
+        <p>Todos los Derechos Reservados - Alejandro Ovidio / Samuel Pérez</p>
+      </div>
+    </footer>      
+    
+    <!-- Link Swiper JS -->
+
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!-- Link to JS -->
+
+    <script src="js/main.js"></script>
+
+  </body>
+</html>
+  

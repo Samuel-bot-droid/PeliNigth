@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies Website</title>
+
+    <!-- Fav Icon -->
+
+    <link rel="icon" href="img/favi-icon.png" type="img/x-icon" />
+    
+    <!-- Font awesome -->
+
+    <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer"
+    />
+
+    <!-- Box Icons -->
+
+    <link 
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" 
+    rel="stylesheet"
+    />
+
+    <!-- Boostrap -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <!-- Link Swiper CSS -->
+
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <!-- Normalize -->
+
+    <link rel="stylesheet" href="..//css/normalize.css"/>
+  </head>
+  <body>
+
+    <!-- Header -->
+
+    <header>
+        <!-- Nav -->
+        <div class="nav container">
+          <!-- Logo -->
+          <a href="index.html" class="logo">
+            <img src="img/logo-2.png" alt="logo">
+          </a>
+          <!-- Search Box -->
+          <div class="search_box">
+            <input type="search" name="" id="search_input" placeholder="Buscar un película"><i class='bx bx-search'></i>
+            <div class="bar_search">
+              <a href="#" class="card">
+                <img src="img/the boys.jpg" alt="">
+                <div class="cont_search">
+                  <h3>The Boys</h3>
+                  <p>Sci-Fi / Action, 2021 , <span>IMDB</span><i class="bi bi-star-fill"></i> 9.3 </p>
+                </div>
+              </a>
+              <a href="#" class="card">
+                <img src="img/money_heist.jpg" alt="">
+                <div class="cont_search">
+                  <h3>La Casa de Papel</h3>
+                  <p>Action / Thriller, 2021 , <span>IMDB</span><i class="bi bi-star-fill"></i> 9.9 </p>
+                </div>
+              </a>
+              <a href="#" class="card">
+                <img src="img/Jhon Wick.jpg" alt="">
+                <div class="cont_search">
+                  <h3>John wick</h3>
+                  <p>Action, 2021 , <span>IMDB</span><i class="bi bi-star-fill"></i> 9.8 </p>
+                </div>
+              </a>
+              <a href="#" class="card">
+                <img src="img/ant man.jpg" alt="">
+                <div class="cont_search">
+                  <h3>El Hombre Hormiga</h3>
+                  <p>Sci-Fi, 2021 , <span>IMDB</span><i class="bi bi-star-fill"></i> 8.9 </p>
+                </div>
+              </a>   
+              <a href="#" class="card">
+                <img src="img/avengers.jpg" alt="">
+                <div class="cont_search">
+                  <h3>Los Vengadores</h3>
+                  <p>Sci-fi / Action, 2021 , <span>IMDB</span><i class="bi bi-star-fill"></i> 9.9 </p>
+                </div>
+              </a>   
+              <a href="#" class="card">
+                <img src="img/moon knight.jpg" alt="">
+                <div class="cont_search">
+                  <h3>Moonknight</h3>
+                  <p>Sci-Fi / Action, 2021 , <span>IMDB</span><i class="bi bi-star-fill"></i> 8.3 </p>
+                </div>
+              </a>   
+              <a href="#" class="card">
+                <img src="img/kota factory.jpg" alt="">
+                <div class="cont_search">
+                  <h3>La Fábrica de Kota</h3>
+                  <p>Comedy, 2021 , <span>IMDB</span><i class="bi bi-star-fill"></i> 8.1 </p>
+                </div>
+              </a>   
+              <a href="#" class="card">
+                <img src="img/collage romance.jpg" alt="">
+                <div class="cont_search">
+                  <h3>Collage Romance</h3>
+                  <p>Comedy, 2021 , <span>IMDB</span><i class="bi bi-star-fill"></i> 7.8 </p>
+                </div>
+              </a>  
+              <a href="#" class="card">
+                <img src="img/thor love of thunder.jpg" alt="">
+                <div class="cont_search">
+                  <h3>Thor: Amor y Trueno</h3>
+                  <p>Sci-Fi / Action, 2022 , <span>IMDB</span><i class="bi bi-star-fill"></i> 7.2 </p>
+                </div>
+              </a>   
+              <a href="#" class="card">
+                <img src="img/topgun.jpg" alt="">
+                <div class="cont_search">
+                  <h3>Top Gun: Maverick</h3>
+                  <p>Action / Adventure, 2022 , <span>IMDB</span><i class="bi bi-star-fill"></i> 9 </p>
+                </div>
+              </a>   
+              <a href="#" class="card">
+                <img src="img/spiderman.jpg" alt="">
+                <div class="cont_search">
+                  <h3>Spiderman: No Way Home</h3>
+                  <p>Action / Adventure, 2022 , <span>IMDB</span><i class="bi bi-star-fill"></i> 9.5 </p>
+                </div>
+              </a>       
+            </div>
+          </div>
+          <!-- User -->
+          <a href="#" class="user">
+            <img src="img/user.png" alt="" class="user-img">
+          </a>
+          <!-- NavBar -->
+          <div class="navbar">
+            <a href="index.html" class="nav-link nav-active">
+              <i class="bx bx-home"></i>
+              <span class="nav-link-title">Home</span>
+            </a>
+            <a href="nosotros.html" class="nav-link">
+              <i class='bx bx-user'></i>
+              <span class="nav-link-title">Nosotros</span>
+            </a>
+            <a href="#popular" class="nav-link">
+              <i class="bx bxs-hot"></i>
+              <span class="nav-link-title">Trending</span>
+            </a>
+            <a href="#movies" class="nav-link">
+              <i class='bx bx-camera-movie'></i>
+              <span class="nav-link-title">Películas</span>
+            </a>
+            <a href="series.html" class="nav-link">
+              <i class='bx bx-tv'></i>
+              <span class="nav-link-title">Series</span>
+            </a>
+            <a href="jumanji.html" class="nav-link">
+              <i class="bx bx-heart"></i>
+              <span class="nav-link-title">Favoritos</span>
+            </a>
+            <a href="contacto.html" class="nav-link">
+              <i class='bx bx-info-circle'></i>
+              <span class="nav-link-title">Información</span>
+            </a>
+          </div>
+        </div>        
+    </header>
+
+    <!-- Home -->
+
+    <main class="home container" id="home">
+      <!-- Home Image -->
+      <div class="home-video">
+        <video src="video/john wick.webm" loop plays-inline autoplay muted></video>     
+      </div>
+      <!-- Home Text -->
+      <div class="home-text">
+        <h1 id="title">John Wick</h1>
+        <p>
+          La ciudad de Nueva York se llena de balas cuando John Wick, un exasesino a sueldo, regresa de su retiro para enfrentar a los mafiosos rusos, liderados por Viggo Tarasov, que destruyeron todo aquello que él amaba y pusieron precio a su cabeza.
+        </p>
+        <div class="details">
+          <h5 id="gen">Action</h5>
+          <h4>2021</h4>
+          <h3 id="rate"><span>IMDB</span><i class="bi bi-star-fill"></i> 8.7 </h3>
+        </div>
+        <div class="btns-h">
+          <a href="#" id="play-h">Ver Online &nbsp <i class="bi bi-play-fill"></i></a>
+          &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+          <a href="#" id="download-h">Descargar &nbsp <i class="bi bi-cloud-arrow-down-fill"></i></a>
+        </div>
+      </div>      
+    </main>
+
+    <!-- Home End -->
+
+    <!-- Home End -->
+    
+      <!-- Popular Section Start -->
+    
+      <section class="popular container" id="popular">
+        <!-- Heading -->
+        <div class="heading">
+          <h2 class="heading-title">Popular Movies</h2>
+          <!-- Swiper Buttons -->
+          <div class="swiper-btn">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>        
+          </div>
+        </div>
+        <!-- Content -->
+        <div class="popular-content swiper">
+          <div class="swiper-wrapper">        
+            <!-- Movies Box 3 -->
+            <div class="swiper-slide">
+              <a href="#" class="movie-box">
+                <img src="img/Jhon Wick.jpg" alt="movie 1" class="movie-box-img-p">
+                <div class="rest_card">
+                  <img src="img/jhon wick1.webp" alt="boys">
+                  <div class="box-text-p">
+                    <h2 class="movie-title-p">Jhon Wick</h2>
+                    <div class="sub">
+                      <span class="movie-type">Action</span>
+                      <h4 id="rate"><span>IMDB</span><i class="bi bi-star-fill"></i> 9.8 </h4>
+                    </div>                  
+                    <a href="#" class="watch-btn play-btn">
+                      <i class="bx bx-right-arrow"></i>
+                    </a>
+                  </div>
+                </div>    
+              </a>            
+            </div>          
+            <!-- Movies Box 4 -->
+            <div class="swiper-slide">
+              <a href="#" class="movie-box">
+                <img src="img/ant man.jpg" alt="movie 1" class="movie-box-img-p">
+                <div class="rest_card">
+                  <img src="img/ant man1.jpg" alt="boys">
+                  <div class="box-text-p">
+                    <h2 class="movie-title-p">El Hombre Hormiga</h2>
+                    <div class="sub">
+                      <span class="movie-type">Sci-Fi</span>
+                      <h4 id="rate"><span>IMDB</span><i class="bi bi-star-fill"></i> 8.9 </h4>
+                    </div>                  
+                    <a href="#" class="watch-btn play-btn">
+                      <i class="bx bx-right-arrow"></i>
+                    </a>
+                  </div>
+                </div>    
+              </a>            
+            </div>          
+            <!-- Movies Box 5 -->
+            <div class="swiper-slide">
+              <a href="#" class="movie-box">
+                <img src="img/avengers.jpg" alt="movie 1" class="movie-box-img-p">
+                <div class="rest_card">
+                  <img src="img/avengers1.jpg" alt="boys">
+                  <div class="box-text-p">
+                    <h2 class="movie-title-p">Los Vengadores</h2>
+                    <div class="sub">
+                      <span class="movie-type">Sci-Fi / Action</span>
+                      <h4 id="rate"><span>IMDB</span><i class="bi bi-star-fill"></i> 9.6 </h4>
+                    </div>                  
+                    <a href="#" class="watch-btn play-btn">
+                      <i class="bx bx-right-arrow"></i>
+                    </a>
+                  </div>
+                </div>    
+              </a>            
+            </div>          
+            <!-- Movies Box 9 -->
+            <div class="swiper-slide">
+              <a href="#" class="movie-box">
+                <img src="img/thor love of thunder.jpg" alt="movie 1" class="movie-box-img-p">
+                <div class="rest_card">
+                  <img src="img/thor love of thunder1.avif" alt="boys">
+                  <div class="box-text-p">
+                    <h2 class="movie-title-p">Thor: Amor y Trueno</h2>
+                    <div class="sub">
+                      <span class="movie-type">Sci-Fi</span>
+                      <h4 id="rate"><span>IMDB</span><i class="bi bi-star-fill"></i> 7.2 </h4>
+                    </div>                  
+                    <a href="#" class="watch-btn play-btn">
+                      <i class="bx bx-right-arrow"></i>
+                    </a>
+                  </div>
+                </div>    
+              </a>            
+            </div>
+            <!-- Movies Box 10 -->
+            <div class="swiper-slide">
+              <a href="#" class="movie-box">
+                <img src="img/topgun.jpg" alt="movie 1" class="movie-box-img-p">
+                <div class="rest_card">
+                  <img src="img/topgun1.jpg" alt="boys">
+                  <div class="box-text-p">
+                    <h2 class="movie-title-p">Top Gun: Maverick</h2>
+                    <div class="sub">
+                      <span class="movie-type">Action / Adventure</span>
+                      <h4 id="rate"><span>IMDB</span><i class="bi bi-star-fill"></i> 9 </h4>
+                    </div>                  
+                    <a href="#" class="watch-btn play-btn">
+                      <i class="bx bx-right-arrow"></i>
+                    </a>
+                  </div>
+                </div>    
+              </a>            
+            </div>
+            <!-- Movies Box 11 -->
+            <div class="swiper-slide">
+              <a href="#" class="movie-box">
+                <img src="img/spiderman.jpg" alt="movie 1" class="movie-box-img-p">
+                <div class="rest_card">
+                  <img src="img/spiderman1.jpg" alt="boys">
+                  <div class="box-text-p">
+                    <h2 class="movie-title-p">Spiderman: No Way Home</h2>
+                    <div class="sub">
+                      <span class="movie-type">Action / Sci-Fi</span>
+                      <h4 id="rate"><span>IMDB</span><i class="bi bi-star-fill"></i> 9.5 </h4>
+                    </div>                  
+                    <a href="#" class="watch-btn play-btn">
+                      <i class="bx bx-right-arrow"></i>
+                    </a>
+                  </div>
+                </div>    
+              </a>            
+            </div>
+          </div>
+        </div>
+      </section>
+  
+    
+      <!-- Movies Section Start -->
+
+    <section class="movies container" id="movies">
+      <!-- Heading -->
+      <div class="heading">
+        <h2 class="heading-title">Movies - Action</h2>
+      </div>
+      <!-- Movies Content -->
+      <div class="movies-content">
+        <!-- Movies Box 1 -->
+        <a href="jumanji.html" class="movie-box">
+          <img src="img/movie-1.jpg" alt="movie 1" class="movie-box-img">
+          <div class="box-text">
+            <h2 class="movie-title">Jumanji: Welcome to the Jungle</h2>
+            <span class="movie-type">Action/Adventure</span>
+          </div>
+        </a>
+        <!-- Movies Box 2 -->
+        <a href="#" class="movie-box">
+          <img src="img/movie-2.jpg" alt="movie 2" class="movie-box-img">
+          <div class="box-text">
+            <h2 class="movie-title">Hitman's Wife's Bodyguard</h2>
+            <span class="movie-type">Action/Comedy</span>
+          </div>
+        </a>
+        <!-- Movies Box 5 -->
+        <a href="#" class="movie-box">
+          <img src="img/movie-5.jpg" alt="movie 5" class="movie-box-img">
+          <div class="box-text">
+            <h2 class="movie-title">Spectre</h2>
+            <span class="movie-type">Action</span>
+          </div>
+        </a>
+        <!-- Movies Box 6 -->
+        <a href="#" class="movie-box">
+          <img src="img/Jhon Wick.jpg" alt="movie 6" class="movie-box-img">
+          <div class="box-text">
+            <h2 class="movie-title">John Wick</h2>
+            <span class="movie-type">Action</span>
+          </div>
+        </a>
+        <!-- Movies Box 8 -->
+        <a href="#" class="movie-box">
+          <img src="img/movie-8.jpg" alt="movie 8" class="movie-box-img">
+          <div class="box-text">
+            <h2 class="movie-title">Johnny English</h2>
+            <span class="movie-type">Action/Comedy</span>
+          </div>
+        </a>
+        <!-- Movies Box 9 -->
+        <a href="#" class="movie-box">
+          <img src="img/movie-9.jpg" alt="movie 8" class="movie-box-img">
+          <div class="box-text">
+            <h2 class="movie-title">Jungle Cruise</h2>
+            <span class="movie-type">Action/Adventure</span>
+          </div>
+        </a>
+        <!-- Movies Box 12 -->
+        <a href="#" class="movie-box">
+          <img src="img/topgun.jpg" alt="movie 8" class="movie-box-img">
+          <div class="box-text">
+            <h2 class="movie-title">Top Gun</h2>
+            <span class="movie-type">Action</span>
+          </div>
+        </a>
+      </div>
+
+        <!-- Heading -->
+      <div class="heading">
+        <h2 class="heading-title">Movies - Superheroes</h2>
+      </div>
+      <!-- Movies Content -->
+      <div class="movies-content">
+        <!-- Movies Box 3 -->
+        <a href="#" class="movie-box">
+          <img src="img/movie-3.jpg" alt="movie 3" class="movie-box-img">
+          <div class="box-text">
+            <h2 class="movie-title">Shang-Chi</h2>
+            <span class="movie-type">Action/Sci-Fi</span>
+          </div>
+        </a>
+        <!-- Movies Box 4 -->
+        <a href="#" class="movie-box">
+          <img src="img/movie-4.jpg" alt="movie 4" class="movie-box-img">
+          <div class="box-text">
+            <h2 class="movie-title">Eternals</h2>
+            <span class="movie-type">Action/Sci-Fi</span>
+          </div>
+        </a>
+        <!-- Movies Box 7 -->
+        <a href="#" class="movie-box">
+          <img src="img/movie-7.jpg" alt="movie 7" class="movie-box-img">
+          <div class="box-text">
+            <h2 class="movie-title">The Wolverine</h2>
+            <span class="movie-type">Action/Sci-Fi</span>
+          </div>
+        </a>
+        <!-- Movies Box 10 -->
+        <a href="#" class="movie-box">
+          <img src="img/ant man.jpg" alt="movie 8" class="movie-box-img">
+          <div class="box-text">
+            <h2 class="movie-title">Ant-Man</h2>
+            <span class="movie-type">Action/Sci-Fi</span>
+          </div>
+        </a>
+        <!-- Movies Box 11 -->
+        <a href="#" class="movie-box">
+          <img src="img/avengers.jpg" alt="movie 8" class="movie-box-img">
+          <div class="box-text">
+            <h2 class="movie-title">Avengers</h2>
+            <span class="movie-type">Action/Sci-Fi</span>
+          </div>
+        </a>
+        <!-- Movies Box 13 -->
+        <a href="#" class="movie-box">
+          <img src="img/thor love of thunder.jpg" alt="movie 8" class="movie-box-img">
+          <div class="box-text">
+            <h2 class="movie-title">Thor: Love and Thunder</h2>
+            <span class="movie-type">Action</span>
+          </div>
+        </a>
+        <!-- Movies Box 14 -->
+        <a href="#" class="movie-box">
+          <img src="img/spiderman.jpg" alt="movie 8" class="movie-box-img">
+          <div class="box-text">
+            <h2 class="movie-title">Spiderman: No Way Home</h2>
+            <span class="movie-type">Action/Sci-Fi</span>
+          </div>
+        </a>
+        <!-- Movies Box 15 -->
+        <a href="#" class="movie-box">
+          <img src="img/flash.jpg" alt="movie 8" class="movie-box-img">
+          <div class="box-text">
+            <h2 class="movie-title">The Flash</h2>
+            <span class="movie-type">Action/Sci-Fi</span>
+          </div>
+        </a>
+      </div>  
+    </section>
+
+      <!-- Movies Section End -->
+
+      <!-- Return -->
+
+      <div class="next-page ">
+        <div class="btns-h">
+          <a href="#home" class="next-btn">
+            <i class="fa-solid fa-angles-up"></i>
+          </a>
+        </div>        
+      </div><br>
+
+    <!-- Copyright -->
+
+    <footer>
+      <div class="copyright">
+        <p>Copyright - Unifranz &copy; 2023</p>
+        <p>Todos los Derechos Reservados - Alejandro Ovidio / Samuel Pérez</p>
+      </div>
+    </footer>      
+    
+    <!-- Link Swiper JS -->
+
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!-- Link to JS -->
+
+    <script src="js/main.js"></script>
+
+  </body>
+</html>
+  
